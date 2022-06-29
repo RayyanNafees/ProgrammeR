@@ -1,0 +1,8 @@
+def __add__(self, term: str) -> str:
+        '''Returns self + term'''
+        expr = unterm( terms(self) + terms(term))
+        var_dict = {a : 1 for a in alphaz(expr)}
+
+        SUM = [str(unterm(v).solve_for(**var_dict)) + k for k,v in liked(expr).items() if k != '']
+
+        return unterm(SUM[::-1])

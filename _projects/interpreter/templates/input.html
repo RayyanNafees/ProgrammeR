@@ -1,0 +1,71 @@
+ {% extends 'Ncrypt.html' %} {% block body %}
+
+<h1> IDLE
+    <font size="4">LITE</font>
+</h1>
+
+<p style="margin-bottom:2%; margin-top:-1%;">Test your skills anywhere with this Interactive Python3 IDLE on the WEB!<br> Get ready to be armed with Py3 Gadgets going to be equipped in the next update.
+
+    <form method="post" action="/out">
+        <input type="submit" value="RUN" id="btn">
+        <textarea name="code" placeholder=">>>" required></textarea>
+    </form>
+
+    <aside>
+        <h4 style="font-variant: small-caps">Direction:</h4>
+        <ul>
+            <li>Any Error in your code would result in a blank output section.
+                <li>Don"t type any GUI based program, it is only for development (almost like your IDLE) not for productive purposes.</li>
+                <li> modules not supported:
+                    <blockquote>
+                        <ul type="square">
+                            <li>functools</li>
+                            <li>setuptools</li>
+                            <li>tkinter</li>
+                            <li>web-frameworks</li>
+                            <li>etc.</li>
+                        </ul>
+                    </blockquote>
+
+                    <li>Supported modules:
+                        <blockquote>
+                            <ul type="square">
+                                <li>Every module that returns printable output. (except that of turtle and that of pillow)</li>
+                            </ul>
+                        </blockquote>
+
+                        <li>Terminal based processes would be done in server-side terminal. (in the web server) </li>
+                        <li>In case of a ImportError or any module not found, write the following code and the error would be handled:
+                            <blockquote>from subprocess import call<br>call("pip install <i>module_name</i>")</blockquote><br> wait for the output (which would be blank) and then try again. </li>
+        </ul>
+    </aside>
+
+    <div id="pwr">Powered by ~ Ryanafiz </div>
+
+    <div id="footer">
+        <div id="contact">
+            <h5>Contact:</h5>
+            <p><a id="link" href="tel:+919359939246">Home</a></p>
+            <p><a id="link" href="tel:+919193497273">Office</a></p>
+            <p><a id="link" href="mailto:nafees.rayyan@gmail.com">e-mail</a></p>
+        </div>
+
+        <div id="about">
+            <h5>About us</h5>
+            <p><a id="link" href="/info">My Blog</a></p>
+        </div>
+
+        <div id="services">
+            <h5>Products</h5>
+            <p><a id="link" href="/webz"> websitez</a></p>
+            <p><a id="link" href="/appz"> appz </a></p>
+        </div>
+
+        <div id="etc">
+            <h5>Etcetra:</h5>
+            <p><a id="link" href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3"> Get the App </a>
+        </div>
+        <br><br><br>
+    </div>
+
+    {% endblock %}

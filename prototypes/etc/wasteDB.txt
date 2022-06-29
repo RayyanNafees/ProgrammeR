@@ -1,0 +1,3 @@
+database: waste
+user: Waste
+password: passwd

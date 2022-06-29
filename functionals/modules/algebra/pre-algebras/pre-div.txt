@@ -1,0 +1,39 @@
+    def __truediv__(self, expr: str) -> str:
+        '''Returns self / term'''
+        term = Algebra(expr)
+        if len(term) == 1:
+            if const(term) == 1:   return self
+            elif const(term) == 0: raise ZeroDivisionError('devision by zero')
+
+        elif self == term: return 1
+
+        def div(Self, val, /):
+            num_div = simpler(const(Self)/const(val))
+            if like(Self,val):
+                var_div = ''
+            elif alpha(Self) == alpha(val):
+                exp = power(Self) - power(val)
+                suffix = f'^{exp}' if exp > 1 else ''
+                var_div = alpha(Self) + suffix
+            else:
+                var_div = var(Self)+'/'+var(val)
+
+            return str(num_div) + var_div
+
+        first = lambda eqn: terms(pow_sorted(eqn))[0]
+
+        quot = []
+        rem = self.copy()
+        val = term
+        trm = first(term)
+        while True:
+            quo = div(first(rem),trm)
+            quot.append(quo)
+            rem -= val*quo
+            rem.simplify() if type(rem) != int else None
+            rem.pow_sort() if type(rem) != int else None
+            if deg(rem) < deg(val):
+                self.rem = rem
+                break
+
+        return unterm(quot)

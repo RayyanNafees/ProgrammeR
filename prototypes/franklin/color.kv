@@ -1,0 +1,36 @@
+<BackColor@Widget>
+    background_color: 1,1,1,1
+    canvas.before:
+        Color:
+            rgba: root.background_color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+            
+<BackLabel@Label+BackColor>
+    font_name: 'OpenSans'        
+    
+BoxLayout:
+    orientation: "vertical"
+    
+    GridLayout:
+        cols: 2
+        
+        Button:
+            font_name: "OpenSans"
+            bold: False
+            text: "Random\    Color"
+            font_size: 50
+            size_hint: (1,.5)
+            on_press: app.change_color()
+            
+        Label:
+            id: color_name
+            text: ""
+            font_name: "OpenSans"
+            bold: True
+            font_size: 50
+            
+    BackLabel:
+        id: color_screen
+        text: ""

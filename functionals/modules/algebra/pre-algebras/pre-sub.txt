@@ -1,0 +1,17 @@
+diff = []
+        for t in terms(term):
+            for s in terms(self):
+                if like(s,t):
+                    num_sub = const(s) - const(t)
+                    var_sub = var(s)
+                    diff.append(str(num_sub) + var_sub)
+                else:
+                    diff.append(str(s))
+
+            if var(t) not in self:
+                diff.append('-'+str(t))
+
+        if type(term) == int and int(term) < 0:
+            return unterm( diff[(len(diff)//2):] )
+        else:
+            return unterm(diff)

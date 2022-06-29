@@ -1,0 +1,12 @@
+constz = lambda expr: tuple(map(const, terms(expr)))
+
+varz = lambda expr: tuple(set(map(var, terms(expr))))
+
+alphaz = lambda expr: tuple(sorted(set(map(alpha,terms(expr)))))
+
+
+pow_dict = termd = lambda expr: {i : [term for term in terms(expr) if power(term) == i] for i in range(deg(expr),-1,-1)}
+
+var_dict = liked = lambda expr: {i : [term for term in terms(expr) if var(term) == i] for i in varz(expr)}
+
+alpha_dict=alphad= lambda expr: {i : [term for term in terms(expr) if alpha(term) == i] for i in alphaz(expr)}

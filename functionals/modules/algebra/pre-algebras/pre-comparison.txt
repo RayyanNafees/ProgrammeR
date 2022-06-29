@@ -1,0 +1,18 @@
+    def __lt__(self, expr: str) -> bool:
+        '''Returns self < expr ( for variables == 1).'''
+        expr = Algebra(expr)
+        one = {a : 1 for a in alphaz(self)}
+        self_int = self.solve_for(**one)
+        expr_int = expr.solve_for(**one)
+        return self_int < expr_int
+
+    __eq__ = lambda self, expr: set(terms(simplified(self))) == set(terms(simplified(expr)))
+
+    __ne__ = lambda self, expr: not self == expr
+
+    __gt__ = lambda self, expr: False if self == expr else not self < expr
+
+    __le__ = lambda self, expr: self < expr or self == expr
+
+    __ge__ = lambda self, expr: self > expr or self == expr
+

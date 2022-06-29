@@ -1,0 +1,2 @@
+simplified = lambda expr: unterm(str(num) + var for var,num in \
+           {var : sum(const(i) for i in val) for var,val in liked(expr).items()}.items())

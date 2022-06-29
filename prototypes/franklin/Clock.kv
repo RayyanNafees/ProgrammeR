@@ -1,0 +1,36 @@
+<Label>:
+    markup: True
+    font_size: 60
+    
+<Button>:
+    font_size: 35
+    bold: True
+    background_color: (0,.5,.6,.3)
+    
+
+BoxLayout:
+    orientation: 'vertical'
+        
+    Label:
+        id: time
+        text: '[b]00[/b]:00:00'
+        
+    BoxLayout:
+        orientation: 'horizontal'
+        height: 90
+        padding: 20
+        spacing: 20
+        size_hint: (1, None)
+        
+        Button:
+            id: startstop_btn
+            text: 'start'
+            on_press: app.start_stop()
+            
+        Button:
+            text: 'reset'
+            on_press: app.reset()
+            
+    Label:
+        id: stopwatch
+        text: '0:0.[size=40]00[/size]'

@@ -1,0 +1,2 @@
+background or background-color: bg
+color: fg

@@ -1,0 +1,18 @@
+for t in terms(term):
+            for s in terms(self):
+                if like(t,s):
+                    num_add = const(s) + const(t)
+                    var_add = var(s)
+                    exp.append(str(num_add) + var_add)
+                else:
+                    exp.append(str(s))
+
+            if var(t) not in self:
+                exp.append(t)
+
+        sum_ = unterm(exp)
+
+        if str(term).isnumeric() and int(term) < 0:
+            return sum_[(len(sum_)//2):]
+        else:
+            return sum_

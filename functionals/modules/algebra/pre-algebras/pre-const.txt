@@ -1,0 +1,22 @@
+def const(term: str) -> int:
+    '''Returns the constant integer of the supplied term.'''
+    def const(term: str) -> int:
+        '''The main func responsible...'''
+        num = str(term).replace(var(term),'')
+        if num == '-':  const = -1
+        elif num == '': const = 1
+        else:
+            try:
+                const = int(num)
+            except ValueError:
+                const = float(num)
+        return const
+
+    if '/' not in (term:=str(term)):
+        return const(term)
+
+    simpler = lambda num: max(int(float(int(num))), float(int(num)))
+
+    n, d = term.split('/')
+    return simpler(const(n)/const(d))
+

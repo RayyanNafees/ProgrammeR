@@ -1,0 +1,16 @@
+
+You have to publish it on python anywhere using the url:
+"idle.pythonanywhere.com"
+
+Create a new Gmail account and a username for deploying on PythonAnywhere for FREE !
+
+Add some wordpress css or your own and some graphics,styling, [threading], prior to hosting
+
+Don't forget to include almost every modulle on pip
+
+Read the tutorial in 'Head First PYTHON' and sign in to GitHub
+
+Advertise it on social media
+
+{ Give weekly updates to your webapp
+and you'd have to delete and the add new app to pythonanywhere for updating it}

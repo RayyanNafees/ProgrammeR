@@ -1,0 +1,8 @@
+README.txt
+algebra_lite.py
+factors.py
+setup.py
+algebra.egg-info/PKG-INFO
+algebra.egg-info/SOURCES.txt
+algebra.egg-info/dependency_links.txt
+algebra.egg-info/top_level.txt

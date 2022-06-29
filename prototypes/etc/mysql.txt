@@ -1,0 +1,955 @@
+1: Download of product 'mysql-server' started from http://cdn.mysql.com/Downloads/MySQL-5.7/mysql-5.7.30-win32.msi
+2: Download of product 'notifier' started from http://cdn.mysql.com/Downloads/MySQL-Notifier/mysql-notifier-1.1.8.msi
+3: Download of product 'mysql-router' started from http://cdn.mysql.com/archives/mysql-router/mysql-router-8.0.3-dmr-windows-x86-32bit.msi
+4: Download of product 'connector-python' started from http://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-8.0.20-windows-x86-32bit.msi
+5: Download of product 'connector-net' started from http://cdn.mysql.com/Downloads/Connector-Net/mysql-connector-net-8.0.20.msi
+6: Download of product 'documents' started from http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-documents-8.0.20.msi
+7: Download of product 'documents' started from http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-documents-5.7.30.msi
+8: Download of product 'examples' started from http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-examples-5.7.30.msi
+9: Download of product 'examples' started from http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-examples-8.0.20.msi
+8: Download of package 'Samples and Examples 5.7.30' succeeded
+9: Download of package 'Samples and Examples 8.0.20' succeeded
+4: Download of package 'Connector/Python 8.0.20' succeeded
+2: Download of package 'MySQL Notifier 1.1.8' succeeded
+3: Download of package 'MySQL Router 8.0.3' succeeded
+7: Download of package 'MySQL Documentation 5.7.30' failed with message An exception occurred during a WebClient request.
+7: Download of product 'documents' started from http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-documents-5.7.30.msi
+5: Download of package 'Connector/NET 8.0.20' succeeded
+6: Download of package 'MySQL Documentation 8.0.20' succeeded
+1: Download of package 'MySQL Server 5.7.30' succeeded
+7: Download of package 'MySQL Documentation 5.7.30' succeeded
+8: Action 22:13:56: INSTALL. 
+8: 1: MySQL Examples and Samples 5.7 2: {7CDB9EB7-1F76-4442-8D12-02487DA44D5C} 
+8: Action 22:13:56: FindRelatedProducts. Searching for related applications
+8: Action 22:13:56: ValidateProductID. 
+8: Action 22:13:56: CostInitialize. Computing space requirements
+8: Action 22:13:56: FileCost. Computing space requirements
+8: Action 22:13:56: CostFinalize. Computing space requirements
+8: Action 22:13:56: InstallValidate. Validating install
+8: Action 22:13:56: InstallInitialize. 
+8: Action 22:13:56: RemoveExistingProducts. Removing applications
+8: Action 22:13:56: ProcessComponents. Updating component registration
+8: Action 22:13:56: GenerateScript. Generating script operations for action:
+8: Updating component registration
+8: Action 22:13:56: UnpublishFeatures. Unpublishing Product Features
+8: Action 22:13:56: RemoveRegistryValues. Removing system registry values
+8: Action 22:13:56: RemoveFiles. Removing files
+8: Action 22:13:56: InstallFiles. Copying new files
+8: File: Copying new files,  Directory: ,  Size: 
+8: Action 22:13:56: WriteRegistryValues. Writing system registry values
+8: Key: Writing system registry values, Name: , Value: 
+8: Action 22:13:56: RegisterUser. Registering user
+8: Action 22:13:56: RegisterProduct. Registering product
+8: Registering product
+8: Action 22:13:56: PublishFeatures. Publishing Product Features
+8: Feature: Publishing Product Features
+8: Action 22:13:56: PublishProduct. Publishing product information
+8: 
+8: Action 22:13:56: InstallFinalize. 
+8: Action 22:13:56: ProcessComponents. Updating component registration
+8: Action 22:13:56: InstallFiles. Copying new files
+8: File: sakila.mwb,  Directory: C:\Program Files\MySQL\Samples and Examples 5.7\Sample Databases\Sakila\,  Size: 50019
+8: File: sakila-data.sql,  Directory: C:\Program Files\MySQL\Samples and Examples 5.7\Sample Databases\Sakila\,  Size: 3398148
+8: File: sakila-schema.sql,  Directory: C:\Program Files\MySQL\Samples and Examples 5.7\Sample Databases\Sakila\,  Size: 23353
+8: File: world-schema.sql,  Directory: C:\Program Files\MySQL\Samples and Examples 5.7\Sample Databases\World\,  Size: 397328
+8: Action 22:13:56: WriteRegistryValues. Writing system registry values
+8: Key: \Software\MySQL AB\MySQL Examples and Samples 5.7, Name: Location, Value: C:\Program Files\MySQL\Samples and Examples 5.7\
+8: Key: \Software\MySQL AB\MySQL Examples and Samples 5.7, Name: Sample Databases, Value: C:\Program Files\MySQL\Samples and Examples 5.7\Sample Databases\
+8: Key: \Software\MySQL AB\MySQL Examples and Samples 5.7, Name: , Value: 
+8: Key: \Software\MySQL AB\MySQL Examples and Samples 5.7, Name: , Value: 
+8: Action 22:13:56: RegisterProduct. Registering product
+8: {7CDB9EB7-1F76-4442-8D12-02487DA44D5C}
+8: Action 22:13:56: PublishFeatures. Publishing Product Features
+8: Feature: SampleDB
+8: Action 22:13:56: PublishProduct. Publishing product information
+8: Action 22:13:56: RollbackCleanup. Removing backup files
+8: 1: MySQL Examples and Samples 5.7 2: {7CDB9EB7-1F76-4442-8D12-02487DA44D5C} 3: 1 
+8: The action 'Install' for product 'Samples and Examples 5.7.30' completed successfully.
+9: Action 22:13:56: INSTALL. 
+9: 1: MySQL Examples and Samples 8.0 2: {FD21E10B-F541-4E31-9B9A-78389DA05810} 
+9: Action 22:13:56: FindRelatedProducts. Searching for related applications
+9: Action 22:13:56: ValidateProductID. 
+9: Action 22:13:56: CostInitialize. Computing space requirements
+9: Action 22:13:56: FileCost. Computing space requirements
+9: Action 22:13:56: CostFinalize. Computing space requirements
+9: Action 22:13:56: InstallValidate. Validating install
+9: Action 22:13:56: InstallInitialize. 
+9: Action 22:13:56: RemoveExistingProducts. Removing applications
+9: Action 22:13:56: ProcessComponents. Updating component registration
+9: Action 22:13:56: GenerateScript. Generating script operations for action:
+9: Updating component registration
+9: Action 22:13:56: UnpublishFeatures. Unpublishing Product Features
+9: Action 22:13:56: RemoveRegistryValues. Removing system registry values
+9: Action 22:13:56: RemoveFiles. Removing files
+9: Action 22:13:56: InstallFiles. Copying new files
+9: File: Copying new files,  Directory: ,  Size: 
+9: Action 22:13:57: WriteRegistryValues. Writing system registry values
+9: Key: Writing system registry values, Name: , Value: 
+9: Action 22:13:57: RegisterUser. Registering user
+9: Action 22:13:57: RegisterProduct. Registering product
+9: Registering product
+9: Action 22:13:57: PublishFeatures. Publishing Product Features
+9: Feature: Publishing Product Features
+9: Action 22:13:57: PublishProduct. Publishing product information
+9: 
+9: Action 22:13:57: InstallFinalize. 
+9: Action 22:13:57: ProcessComponents. Updating component registration
+9: Action 22:13:57: InstallFiles. Copying new files
+9: File: sakila.mwb,  Directory: C:\Program Files\MySQL\Samples and Examples 8.0\Sample Databases\Sakila\,  Size: 50019
+9: File: sakila-data.sql,  Directory: C:\Program Files\MySQL\Samples and Examples 8.0\Sample Databases\Sakila\,  Size: 3398148
+9: File: sakila-schema.sql,  Directory: C:\Program Files\MySQL\Samples and Examples 8.0\Sample Databases\Sakila\,  Size: 23353
+9: File: world-schema.sql,  Directory: C:\Program Files\MySQL\Samples and Examples 8.0\Sample Databases\World\,  Size: 397328
+9: Action 22:13:57: WriteRegistryValues. Writing system registry values
+9: Key: \Software\MySQL AB\MySQL Examples and Samples 8.0, Name: Location, Value: C:\Program Files\MySQL\Samples and Examples 8.0\
+9: Key: \Software\MySQL AB\MySQL Examples and Samples 8.0, Name: Sample Databases, Value: C:\Program Files\MySQL\Samples and Examples 8.0\Sample Databases\
+9: Key: \Software\MySQL AB\MySQL Examples and Samples 8.0, Name: , Value: 
+9: Key: \Software\MySQL AB\MySQL Examples and Samples 8.0, Name: , Value: 
+9: Action 22:13:57: RegisterProduct. Registering product
+9: {FD21E10B-F541-4E31-9B9A-78389DA05810}
+9: Action 22:13:57: PublishFeatures. Publishing Product Features
+9: Feature: SampleDB
+9: Action 22:13:57: PublishProduct. Publishing product information
+9: Action 22:13:57: RollbackCleanup. Removing backup files
+9: 1: MySQL Examples and Samples 8.0 2: {FD21E10B-F541-4E31-9B9A-78389DA05810} 3: 1 
+9: The action 'Install' for product 'Samples and Examples 8.0.20' completed successfully.
+4: Action 22:13:57: INSTALL. 
+4: 1: MySQL Connector Python v8.0.20 2: {82E8190E-A34B-4B45-A8F7-DFABCA25C6E1} 
+4: Action 22:13:57: FindRelatedProducts. Searching for related applications
+4: Action 22:13:57: AppSearch. Searching for installed applications
+4: Action 22:13:57: SetInstallDirCurrentP38. 
+4: Action 22:13:57: LaunchConditions. Evaluating launch conditions
+4: Action 22:13:57: ValidateProductID. 
+4: Action 22:13:57: CostInitialize. Computing space requirements
+4: Action 22:13:57: FileCost. Computing space requirements
+4: Action 22:13:57: CostFinalize. Computing space requirements
+4: Action 22:13:57: InstallValidate. Validating install
+4: Action 22:13:57: InstallInitialize. 
+4: Action 22:13:57: RemoveExistingProducts. Removing applications
+4: Action 22:13:57: ProcessComponents. Updating component registration
+4: Action 22:13:57: GenerateScript. Generating script operations for action:
+4: Updating component registration
+4: Action 22:13:57: UnpublishFeatures. Unpublishing Product Features
+4: Action 22:13:57: RemoveFiles. Removing files
+4: Action 22:13:57: InstallFiles. Copying new files
+4: File: Copying new files,  Directory: ,  Size: 
+4: Action 22:13:58: RegisterUser. Registering user
+4: Action 22:13:58: RegisterProduct. Registering product
+4: Registering product
+4: Action 22:13:58: PublishFeatures. Publishing Product Features
+4: Feature: Publishing Product Features
+4: Action 22:13:58: PublishProduct. Publishing product information
+4: Action 22:13:58: InstallFinalize. 
+4: Action 22:13:58: ProcessComponents. Updating component registration
+4: Action 22:13:58: InstallFiles. Copying new files
+4: File: __init__.py,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 0
+4: File: abstracts.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 51050
+4: File: authentication.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 9332
+4: File: catch23.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 3842
+4: File: CHANGES.txt,  Directory: C:\Program Files\MySQL\Connector Python 8.0\,  Size: 7696
+4: File: charsets.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 15499
+4: File: connection.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 43928
+4: File: constants.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 38595
+4: File: CONTRIBUTING.rst,  Directory: C:\Program Files\MySQL\Connector Python 8.0\,  Size: 3967
+4: File: conversion.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 23946
+4: File: cursor.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 47107
+4: File: custom_types.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 1956
+4: File: dates.py,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 4098
+4: File: dbapi.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 2621
+4: File: dependency_links.txt,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql_connector_python-8.0.20-py3.8.egg-info\,  Size: 1
+4: File: base.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\django\,  Size: 19945
+4: File: client.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\django\,  Size: 1789
+4: File: compiler.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\django\,  Size: 1320
+4: File: creation.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\django\,  Size: 3261
+4: File: features.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\django\,  Size: 3994
+4: File: __init__.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\django\,  Size: 0
+4: File: introspection.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\django\,  Size: 10255
+4: File: operations.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\django\,  Size: 9162
+4: File: schema.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\django\,  Size: 3439
+4: File: validation.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\django\,  Size: 1475
+4: File: client_error.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\locales\eng\,  Size: 6477
+4: File: __init__.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\locales\eng\,  Size: 1444
+4: File: engines.py,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 2230
+4: File: errorcode.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 162714
+4: File: errors.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 10454
+4: File: INFO_BIN,  Directory: C:\Program Files\MySQL\Connector Python 8.0\,  Size: 70
+4: File: INFO_SRC ,  Directory: C:\Program Files\MySQL\Connector Python 8.0\,  Size: 107
+4: File: __init__.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 10904
+4: File: inserts.py,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 3161
+4: File: LICENSE.txt,  Directory: C:\Program Files\MySQL\Connector Python 8.0\,  Size: 107028
+4: File: __init__.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\locales\,  Size: 2721
+4: File: microseconds.py,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 4108
+4: File: multi_resultsets.py,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 3388
+4: File: __init__.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\,  Size: 0
+4: File: mysql_warnings.py,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 2455
+4: File: authentication.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 5739
+4: File: charsets.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 15499
+4: File: compat.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 2929
+4: File: connection.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 81021
+4: File: constants.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 15189
+4: File: crud.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 19886
+4: File: dbdoc.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 3838
+4: File: client_error.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\locales\eng\,  Size: 6477
+4: File: __init__.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\locales\eng\,  Size: 0
+4: File: errorcode.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 162714
+4: File: errors.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 9248
+4: File: expr.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 47598
+4: File: helpers.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 6932
+4: File: __init__.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 30830
+4: File: __init__.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\locales\,  Size: 2722
+4: File: mysqlx_connection_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 6731
+4: File: mysqlx_crud_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 48783
+4: File: mysqlx_datatypes_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 16608
+4: File: mysqlx_expect_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 7743
+4: File: mysqlx_expr_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 21417
+4: File: __init__.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 16857
+4: File: mysqlx_notice_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 16036
+4: File: mysqlx_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 12973
+4: File: mysqlx_prepare_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 10834
+4: File: mysqlx_resultset_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 14625
+4: File: mysqlx_session_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 7056
+4: File: mysqlx_sql_pb2.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\protobuf\,  Size: 4193
+4: File: protocol.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 33694
+4: File: result.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 31195
+4: File: statement.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysqlx\,  Size: 46797
+4: File: network.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 23281
+4: File: optionfiles.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 13373
+4: File: PKG-INFO,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql_connector_python-8.0.20-py3.8.egg-info\,  Size: 1602
+4: File: pooling.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 12811
+4: File: prepared_statements.py,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 3281
+4: File: protocol.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 29453
+4: File: README.txt,  Directory: C:\Program Files\MySQL\Connector Python 8.0\,  Size: 1439
+4: File: README.rst,  Directory: C:\Program Files\MySQL\Connector Python 8.0\,  Size: 1439
+4: File: requires.txt,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql_connector_python-8.0.20-py3.8.egg-info\,  Size: 45
+4: File: SOURCES.txt,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql_connector_python-8.0.20-py3.8.egg-info\,  Size: 5411
+4: File: top_level.txt,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql_connector_python-8.0.20-py3.8.egg-info\,  Size: 13
+4: File: transaction.py,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 4301
+4: File: unicode.py,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 3277
+4: File: utils.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 12447
+4: File: version.py,  Directory: C:\Users\MY\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\mysql\connector\,  Size: 1872
+4: File: warnings.py ,  Directory: C:\Program Files\MySQL\Connector Python 8.0\Examples\,  Size: 2541
+4: Action 22:13:58: RegisterProduct. Registering product
+4: {82E8190E-A34B-4B45-A8F7-DFABCA25C6E1}
+4: Action 22:13:58: PublishFeatures. Publishing Product Features
+4: Feature: Python38
+4: Feature: CpyCommon
+4: Feature: Complete
+4: Action 22:13:58: PublishProduct. Publishing product information
+4: Action 22:13:58: RollbackCleanup. Removing backup files
+4: 1: MySQL Connector Python v8.0.20 2: {82E8190E-A34B-4B45-A8F7-DFABCA25C6E1} 3: 1 
+4: The action 'Install' for product 'Connector/Python 8.0.20' completed successfully.
+2: Action 22:13:59: INSTALL. 
+2: 1: MySQL Notifier 1.1.8 2: {13397C33-9B69-49D8-81FA-1630D751AEE5} 
+2: Action 22:13:59: FindRelatedProducts. Searching for related applications
+2: Action 22:13:59: AppSearch. Searching for installed applications
+2: Action 22:13:59: SetWIX_IS_NETFRAMEWORK_452_OR_LATER_INSTALLED. 
+2: Action 22:13:59: LaunchConditions. Evaluating launch conditions
+2: Action 22:13:59: ValidateProductID. 
+2: Action 22:13:59: CostInitialize. Computing space requirements
+2: Action 22:13:59: FileCost. Computing space requirements
+2: Action 22:13:59: CostFinalize. Computing space requirements
+2: Action 22:13:59: MySQLNotifier.TaskKill. 
+2: Action 22:13:59: InstallValidate. Validating install
+2: Action 22:13:59: RemoveExistingProducts. Removing applications
+2: Action 22:13:59: WixCloseApplications. 
+2: Action 22:13:59: InstallInitialize. 
+2: Action 22:13:59: ProcessComponents. Updating component registration
+2: Action 22:13:59: GenerateScript. Generating script operations for action:
+2: Updating component registration
+2: Action 22:13:59: UnpublishFeatures. Unpublishing Product Features
+2: Action 22:13:59: RemoveRegistryValues. Removing system registry values
+2: Action 22:13:59: RemoveShortcuts. Removing shortcuts
+2: Action 22:13:59: RemoveFiles. Removing files
+2: Action 22:13:59: RemoveFolders. Removing folders
+2: Action 22:13:59: CreateFolders. Creating folders
+2: Folder: Creating folders
+2: Action 22:13:59: InstallFiles. Copying new files
+2: File: Copying new files,  Directory: ,  Size: 
+2: Action 22:13:59: CreateShortcuts. Creating shortcuts
+2: Shortcut: Creating shortcuts
+2: Action 22:13:59: WriteRegistryValues. Writing system registry values
+2: Key: Writing system registry values, Name: , Value: 
+2: Action 22:13:59: RegisterUser. Registering user
+2: Action 22:13:59: RegisterProduct. Registering product
+2: Registering product
+2: Action 22:13:59: PublishFeatures. Publishing Product Features
+2: Feature: Publishing Product Features
+2: Action 22:13:59: PublishProduct. Publishing product information
+2: 
+2: Action 22:14:00: InstallFinalize. 
+2: Action 22:14:00: ProcessComponents. Updating component registration
+2: Action 22:14:00: CreateFolders. Creating folders
+2: Folder: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\MySQL Notifier 1.1.8\
+2: Folder: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\
+2: Action 22:14:00: InstallFiles. Copying new files
+2: File: BouncyCastle.Crypto.dll,  Directory: C:\Program Files\MySQL\MySQL Notifier 1.1\,  Size: 2453504
+2: File: LICENSE,  Directory: C:\Program Files\MySQL\MySQL Notifier 1.1\,  Size: 86316
+2: File: MySql.Data.dll,  Directory: C:\Program Files\MySQL\MySQL Notifier 1.1\,  Size: 768000
+2: File: MySQLNotifier.exe,  Directory: C:\Program Files\MySQL\MySQL Notifier 1.1\,  Size: 761856
+2: File: MySQL.Utility.dll,  Directory: C:\Program Files\MySQL\MySQL Notifier 1.1\,  Size: 497152
+2: File: README,  Directory: C:\Program Files\MySQL\MySQL Notifier 1.1\,  Size: 929
+2: File: Release Notes.txt,  Directory: C:\Program Files\MySQL\MySQL Notifier 1.1\,  Size: 10775
+2: File: Renci.SshNet.dll,  Directory: C:\Program Files\MySQL\MySQL Notifier 1.1\,  Size: 422912
+2: Action 22:14:00: CreateShortcuts. Creating shortcuts
+2: Shortcut: Notifier.ico
+2: Shortcut: vpmrhmbv.8|MySQL Notifier 1.1.8
+2: Action 22:14:00: WriteRegistryValues. Writing system registry values
+2: Key: \Software\MySQL AB\MySQL Notifier 1.1.8, Name: installed, Value: #1
+2: Key: \Software\MySQL AB\MySQL Notifier 1.1.8, Name: location, Value: C:\Program Files\MySQL\MySQL Notifier 1.1\
+2: Key: \Software\Microsoft\Windows\CurrentVersion\Run, Name: MySQL Notifier, Value: C:\Program Files\MySQL\MySQL Notifier 1.1\MySqlNotifier.exe
+2: Action 22:14:00: RegisterProduct. Registering product
+2: {13397C33-9B69-49D8-81FA-1630D751AEE5}
+2: Action 22:14:00: PublishFeatures. Publishing Product Features
+2: Feature: Complete
+2: Action 22:14:00: PublishProduct. Publishing product information
+2: Action 22:14:00: RollbackCleanup. Removing backup files
+2: Action 22:14:00: LaunchApplication. 
+2: Action 22:14:00: WixCheckRebootRequired. 
+2: 1: MySQL Notifier 1.1.8 2: {13397C33-9B69-49D8-81FA-1630D751AEE5} 3: 1 
+2: The action 'Install' for product 'MySQL Notifier 1.1.8' completed successfully.
+3: Action 22:14:01: INSTALL. 
+3: 1: MySQL Router 8.0 2: {C78F77F6-8C62-41E0-AB0C-44194F19B8A3} 
+3: Action 22:14:01: FindRelatedProducts. Searching for related applications
+3: Action 22:14:01: AppSearch. Searching for installed applications
+3: Action 22:14:01: LaunchConditions. Evaluating launch conditions
+3: Action 22:14:01: ValidateProductID. 
+3: Action 22:14:01: CostInitialize. Computing space requirements
+3: Action 22:14:01: FileCost. Computing space requirements
+3: Action 22:14:01: CostFinalize. Computing space requirements
+3: Action 22:14:01: MigrateFeatureStates. Migrating feature states from related applications
+3: Action 22:14:01: InstallValidate. Validating install
+3: Action 22:14:01: SaveTargetDir. 
+3: Action 22:14:01: InstallInitialize. 
+3: Action 22:14:01: RemoveExistingProducts. Removing applications
+3: Action 22:14:01: ProcessComponents. Updating component registration
+3: Action 22:14:01: GenerateScript. Generating script operations for action:
+3: Updating component registration
+3: Action 22:14:02: UnpublishFeatures. Unpublishing Product Features
+3: Action 22:14:02: RemoveRegistryValues. Removing system registry values
+3: Action 22:14:02: RemoveFiles. Removing files
+3: Action 22:14:02: InstallFiles. Copying new files
+3: File: Copying new files,  Directory: ,  Size: 
+3: Action 22:14:02: RunPostInstallProperty. 
+3: Action 22:14:02: SetInstallDefaultConfigFile. 
+3: Action 22:14:02: SetRegisterService. 
+3: Action 22:14:02: InstallDefaultConfigFile. 
+3: 
+3: Action 22:14:02: RegisterService. 
+3: 
+3: Action 22:14:02: RunPostInstall. 
+3: 
+3: Action 22:14:02: WriteRegistryValues. Writing system registry values
+3: Key: Writing system registry values, Name: , Value: 
+3: Action 22:14:02: RegisterUser. Registering user
+3: Action 22:14:02: RegisterProduct. Registering product
+3: Registering product
+3: Action 22:14:02: PublishFeatures. Publishing Product Features
+3: Feature: Publishing Product Features
+3: Action 22:14:02: PublishProduct. Publishing product information
+3: Action 22:14:02: InstallFinalize. 
+3: Action 22:14:02: ProcessComponents. Updating component registration
+3: Action 22:14:02: InstallFiles. Copying new files
+3: File: harness-library.dll,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\bin\,  Size: 394752
+3: File: libmysql.dll,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\bin\,  Size: 4680192
+3: File: mysqlrouter.exe,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\bin\,  Size: 298496
+3: File: mysqlrouter_plugin_info.exe,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\bin\,  Size: 30208
+3: File: mysqlrouter.conf.sample,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\etc\,  Size: 1267
+3: File: keepalive.dll,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\lib\,  Size: 15872
+3: File: lifecycle.dll,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\lib\,  Size: 38912
+3: File: lifecycle2.dll,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\lib\,  Size: 9728
+3: File: lifecycle3.dll,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\lib\,  Size: 8704
+3: File: metadata_cache.dll,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\lib\,  Size: 145920
+3: File: mysql_protocol.dll,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\lib\,  Size: 46592
+3: File: routing.dll,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\lib\,  Size: 732160
+3: File: x_protocol.dll,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\lib\,  Size: 1052160
+3: File: License.txt,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\doc\,  Size: 17987
+3: File: README.txt,  Directory: C:\Program Files\MySQL\MySQL Router 8.0\doc\,  Size: 4541
+3: Action 22:14:02: InstallDefaultConfigFile. 
+3: Action 22:14:02: RegisterService. 
+3: Action 22:14:02: RunPostInstall. 
+3: Action 22:14:02: WriteRegistryValues. Writing system registry values
+3: Key: \SOFTWARE\MySQL AB\MySQL Router 8.0, Name: Location, Value: C:\Program Files\MySQL\MySQL Router 8.0\
+3: Key: \SOFTWARE\MySQL AB\MySQL Router 8.0, Name: Version, Value: 8.0.3
+3: Key: \SOFTWARE\MySQL AB\MySQL Router 8.0, Name: DataLocation, Value: 
+3: Key: \SOFTWARE\MySQL AB\MySQL Router 8.0, Name: , Value: 
+3: Action 22:14:03: RegisterProduct. Registering product
+3: {C78F77F6-8C62-41E0-AB0C-44194F19B8A3}
+3: Action 22:14:03: PublishFeatures. Publishing Product Features
+3: Feature: RegKeys
+3: Feature: Documentation
+3: Feature: DEFAULTFEATURE
+3: Feature: DefaultFeature
+3: Action 22:14:03: PublishProduct. Publishing product information
+3: Action 22:14:03: RollbackCleanup. Removing backup files
+3: 1: MySQL Router 8.0 2: {C78F77F6-8C62-41E0-AB0C-44194F19B8A3} 3: 1 
+3: The action 'Install' for product 'MySQL Router 8.0.3' completed successfully.
+5: Action 22:14:03: INSTALL. 
+5: 1: MySQL Connector Net 8.0.20 2: {604BC814-D486-4C47-873F-118CF14F4F66} 
+5: Action 22:14:03: FindRelatedProducts. Searching for related applications
+5: Action 22:14:03: AppSearch. Searching for installed applications
+5: Action 22:14:03: LaunchConditions. Evaluating launch conditions
+5: Action 22:14:03: ValidateProductID. 
+5: Action 22:14:03: CostInitialize. Computing space requirements
+5: Action 22:14:03: FileCost. Computing space requirements
+5: Action 22:14:03: CostFinalize. Computing space requirements
+5: Action 22:14:03: InstallValidate. Validating install
+5: Action 22:14:03: Setv45InstallUtil. 
+5: Action 22:14:03: InstallInitialize. 
+5: Action 22:14:04: RemoveExistingProducts. Removing applications
+5: Action 22:14:04: ProcessComponents. Updating component registration
+5: Action 22:14:04: GenerateScript. Generating script operations for action:
+5: Updating component registration
+5: Action 22:14:04: MsiUnpublishAssemblies. Unpublishing assembly information
+5: Action 22:14:04: UnpublishFeatures. Unpublishing Product Features
+5: Action 22:14:04: UninstallPerfCounterData. 
+5: Action 22:14:04: RemoveRegistryValues. Removing system registry values
+5: Action 22:14:04: RemoveShortcuts. Removing shortcuts
+5: Action 22:14:04: RemoveFiles. Removing files
+5: Action 22:14:04: RemoveFolders. Removing folders
+5: Action 22:14:04: CreateFolders. Creating folders
+5: Folder: Creating folders
+5: Action 22:14:04: InstallFiles. Copying new files
+5: File: Copying new files,  Directory: ,  Size: 
+5: Action 22:14:04: ManagedDataInstallSetup. 
+5: Action 22:14:04: ManagedDataInstall. Registering data provider in machine.config
+5: Action 22:14:04: ManagedWebInstallSetup. 
+5: 
+5: Action 22:14:04: CreateShortcuts. Creating shortcuts
+5: Shortcut: Creating shortcuts
+5: Action 22:14:04: WriteRegistryValues. Writing system registry values
+5: Key: Writing system registry values, Name: , Value: 
+5: Action 22:14:05: InstallPerfCounterData. 
+5: Action 22:14:05: RollbackRegisterPerfCounterData. 
+5: 
+5: Action 22:14:05: RegisterPerfCounterData. 
+5: 
+5: Action 22:14:05: RegisterUser. Registering user
+5: Action 22:14:05: RegisterProduct. Registering product
+5: Registering product
+5: Action 22:14:05: MsiPublishAssemblies. Publishing assembly information
+5: Application Context:Publishing assembly information, Assembly Name:
+5: Action 22:14:05: PublishFeatures. Publishing Product Features
+5: Feature: Publishing Product Features
+5: Action 22:14:05: PublishProduct. Publishing product information
+5: 
+5: Action 22:14:05: InstallFinalize. 
+5: Action 22:14:05: ProcessComponents. Updating component registration
+5: Action 22:14:05: CreateFolders. Creating folders
+5: Folder: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\MySQL Connector Net 8.0.20\
+5: Action 22:14:05: InstallFiles. Copying new files
+5: File: BouncyCastle.Crypto.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 2453504
+5: File: BouncyCastle.Crypto.dll,  Directory: ,  Size: 2453504
+5: File: CHANGES,  Directory: C:\Program Files\MySQL\Connector NET 8.0\,  Size: 17797
+5: File: Google.Protobuf.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 298496
+5: File: Google.Protobuf.dll,  Directory: ,  Size: 298496
+5: File: INFO_BIN,  Directory: C:\Program Files\MySQL\Connector NET 8.0\,  Size: 72
+5: File: INFO_SRC,  Directory: C:\Program Files\MySQL\Connector NET 8.0\,  Size: 15
+5: File: K4os.Compression.LZ4.Streams.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 17408
+5: File: K4os.Compression.LZ4.Streams.dll,  Directory: ,  Size: 17408
+5: File: K4os.Compression.LZ4.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 40448
+5: File: K4os.Compression.LZ4.dll,  Directory: ,  Size: 40448
+5: File: K4os.Hash.xxHash.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 12288
+5: File: K4os.Hash.xxHash.dll,  Directory: ,  Size: 12288
+5: File: libzstd.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 918509
+5: File: LICENSE,  Directory: C:\Program Files\MySQL\Connector NET 8.0\,  Size: 103529
+5: File: MySql.Data.EntityFramework.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 393728
+5: File: MySql.Data.EntityFramework.xml,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 21256
+5: File: MySql.Data.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 1727488
+5: File: MySql.Data.dll,  Directory: ,  Size: 1727488
+5: File: MySql.Data.xml,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 893966
+5: File: MySql.Web.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 162304
+5: File: MySql.Web.xml,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 101005
+5: File: MySql.Web.dll,  Directory: ,  Size: 162304
+5: File: README,  Directory: C:\Program Files\MySQL\Connector NET 8.0\,  Size: 653
+5: File: Release Notes.txt,  Directory: C:\Program Files\MySQL\Connector NET 8.0\,  Size: 1029
+5: File: Renci.SshNet.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 422912
+5: File: SshNet.Security.Cryptography.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 34816
+5: File: Renci.SshNet.dll,  Directory: ,  Size: 422912
+5: File: SshNet.Security.Cryptography.dll,  Directory: ,  Size: 34816
+5: File: System.Buffers.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 27792
+5: File: System.Buffers.dll,  Directory: ,  Size: 27792
+5: File: System.Runtime.CompilerServices.Unsafe.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 23088
+5: File: System.Runtime.CompilerServices.Unsafe.dll,  Directory: ,  Size: 23088
+5: File: Ubiety.Dns.Core.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 58880
+5: File: Ubiety.Dns.Core.dll,  Directory: ,  Size: 58880
+5: File: Zstandard.Net.dll,  Directory: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\,  Size: 14848
+5: File: Zstandard.Net.dll,  Directory: ,  Size: 14848
+5: Action 22:14:06: ManagedDataInstall. Registering data provider in machine.config
+5: Action 22:14:12: ManagedWebInstallSetup. 
+5: Action 22:14:14: CreateShortcuts. Creating shortcuts
+5: Shortcut: ChangeLogIcon
+5: Shortcut: upfn1-0t|Documentation
+5: Shortcut: vaitcdd6|ChangeLog
+5: Shortcut: _rq6aex9|Release Notes
+5: Action 22:14:14: WriteRegistryValues. Writing system registry values
+5: Key: \Software\MySQL AB, Name: Default, Value: true
+5: Key: \Software\MySQL AB, Name: , Value: 
+5: Key: \Software\MySQL AB\MySQL Connector/Net, Name: Version, Value: 8.0.20
+5: Key: \Software\MySQL AB\MySQL Connector/Net, Name: Location, Value: C:\Program Files\MySQL\Connector NET 8.0\
+5: Key: \SOFTWARE\Microsoft\.NETFramework\v4.5.50709\AssemblyFoldersEx\MySQL Connector Net 8.0.20 v4.5.1, Name: , Value: C:\Program Files\MySQL\Connector NET 8.0\Assemblies\v4.5.2\
+5: Key: \SOFTWARE\Microsoft\.NETFramework\v4.5.50709\AssemblyFoldersEx\MySQL Connector Net 8.0.20 v4.5.1, Name: , Value: 
+5: Key: \SYSTEM\CurrentControlSet\Services\.NET Data Provider for MySQL\Linkage, Name: Export, Value: .NET Data Provider for MySQL
+5: Key: \SYSTEM\CurrentControlSet\Services\.NET Data Provider for MySQL\Performance, Name: Library, Value: netfxperf.dll
+5: Key: \SYSTEM\CurrentControlSet\Services\.NET Data Provider for MySQL\Performance, Name: Open, Value: OpenPerformanceData
+5: Key: \SYSTEM\CurrentControlSet\Services\.NET Data Provider for MySQL\Performance, Name: Collect, Value: CollectPerformanceData
+5: Key: \SYSTEM\CurrentControlSet\Services\.NET Data Provider for MySQL\Performance, Name: Close, Value: ClosePerformanceData
+5: Key: \SYSTEM\CurrentControlSet\Services\.NET Data Provider for MySQL\Performance, Name: IsMultiInstance, Value: #0
+5: Key: \SYSTEM\CurrentControlSet\Services\.NET Data Provider for MySQL\Performance, Name: Counter Names, Value: 
+5: Key: \SYSTEM\CurrentControlSet\Services\.NET Data Provider for MySQL\Performance, Name: Counter Types, Value: 
+5: Action 22:14:14: RollbackRegisterPerfCounterData. 
+5: Action 22:14:14: RegisterPerfCounterData. 
+5: Action 22:14:14: RegisterProduct. Registering product
+5: {604BC814-D486-4C47-873F-118CF14F4F66}
+5: Action 22:14:14: MsiPublishAssemblies. Publishing assembly information
+5: Application Context:Global, Assembly Name:MySql.Data,version="8.0.20.0",culture="neutral",publicKeyToken="C5687FC88969C44D",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:Google.Protobuf,version="3.6.1.0",culture="neutral",publicKeyToken="A7D26565BAC4D604",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:BouncyCastle.Crypto,version="1.8.3.0",culture="neutral",publicKeyToken="0E99375E54769942"
+5: Application Context:Global, Assembly Name:Renci.SshNet,version="2016.1.0.0",culture="neutral",publicKeyToken="1CEE9F8BDE3DB106",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:SshNet.Security.Cryptography,version="1.2.0.0",culture="neutral",publicKeyToken="C5687FC88969C44D",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:Ubiety.Dns.Core,version="2.2.1.0",culture="neutral",publicKeyToken="C5687FC88969C44D",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:Zstandard.Net,version="1.1.7.0",culture="neutral",publicKeyToken="C5687FC88969C44D",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:K4os.Compression.LZ4,version="1.1.11.0",culture="neutral",publicKeyToken="2186FA9121EF231D",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:K4os.Compression.LZ4.Streams,version="1.1.11.0",culture="neutral",publicKeyToken="2186FA9121EF231D",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:K4os.Hash.xxHash,version="1.0.6.0",culture="neutral",publicKeyToken="32CD54395057CEC3",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:System.Buffers,version="4.0.3.0",culture="neutral",publicKeyToken="CC7B13FFCD2DDD51",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:System.Runtime.CompilerServices.Unsafe,version="4.0.4.1",culture="neutral",publicKeyToken="B03F5F7F11D50A3A",processorArchitecture="MSIL"
+5: Application Context:Global, Assembly Name:MySql.Web,version="8.0.20.0",culture="neutral",publicKeyToken="C5687FC88969C44D",processorArchitecture="MSIL"
+5: Action 22:14:14: PublishFeatures. Publishing Product Features
+5: Feature: EntityFramework
+5: Feature: Core.Feature
+5: Feature: WebProviders
+5: Feature: Plugins
+5: Action 22:14:14: PublishProduct. Publishing product information
+5: Action 22:14:18: RollbackCleanup. Removing backup files
+5: 1: MySQL Connector Net 8.0.20 2: {604BC814-D486-4C47-873F-118CF14F4F66} 3: 1 
+5: The action 'Install' for product 'Connector/NET 8.0.20' completed successfully.
+6: Action 22:14:23: INSTALL. 
+6: 1: MySQL Documents 8.0 2: {6AD45895-0742-45C4-9190-D9C1B9CB3CC7} 
+6: Action 22:14:23: FindRelatedProducts. Searching for related applications
+6: Action 22:14:23: ValidateProductID. 
+6: Action 22:14:23: CostInitialize. Computing space requirements
+6: Action 22:14:23: FileCost. Computing space requirements
+6: Action 22:14:23: CostFinalize. Computing space requirements
+6: Action 22:14:23: InstallValidate. Validating install
+6: Action 22:14:23: InstallInitialize. 
+6: Action 22:14:23: RemoveExistingProducts. Removing applications
+6: Action 22:14:23: ProcessComponents. Updating component registration
+6: Action 22:14:24: GenerateScript. Generating script operations for action:
+6: Updating component registration
+6: Action 22:14:24: UnpublishFeatures. Unpublishing Product Features
+6: Action 22:14:24: RemoveFiles. Removing files
+6: Action 22:14:24: InstallFiles. Copying new files
+6: File: Copying new files,  Directory: ,  Size: 
+6: Action 22:14:24: RegisterUser. Registering user
+6: Action 22:14:24: RegisterProduct. Registering product
+6: Registering product
+6: Action 22:14:24: PublishFeatures. Publishing Product Features
+6: Feature: Publishing Product Features
+6: Action 22:14:24: PublishProduct. Publishing product information
+6: 
+6: Action 22:14:24: InstallFinalize. 
+6: Action 22:14:24: ProcessComponents. Updating component registration
+6: Action 22:14:24: InstallFiles. Copying new files
+6: File: refman-8.0-en.pdf,  Directory: C:\Program Files\MySQL\MySQL Documentation 8.0\,  Size: 50368138
+6: File: refman-8.0-en.a4.pdf,  Directory: C:\Program Files\MySQL\MySQL Documentation 8.0\,  Size: 50419313
+6: Action 22:14:25: RegisterProduct. Registering product
+6: {6AD45895-0742-45C4-9190-D9C1B9CB3CC7}
+6: Action 22:14:26: PublishFeatures. Publishing Product Features
+6: Feature: ServerA4Feature
+6: Feature: ServerFeature
+6: Action 22:14:26: PublishProduct. Publishing product information
+6: Action 22:14:26: RollbackCleanup. Removing backup files
+6: 1: MySQL Documents 8.0 2: {6AD45895-0742-45C4-9190-D9C1B9CB3CC7} 3: 1 
+6: The action 'Install' for product 'MySQL Documentation 8.0.20' completed successfully.
+1: Action 22:14:50: INSTALL. 
+1: 1: MySQL Server 5.7 2: {A6A9C7F2-6AC5-4823-A993-614AF8B5F4BC} 
+1: Action 22:14:50: FindRelatedProducts. Searching for related applications
+1: Action 22:14:50: AppSearch. Searching for installed applications
+1: Action 22:14:50: LaunchConditions. Evaluating launch conditions
+1: Action 22:14:50: ValidateProductID. 
+1: Action 22:14:50: CostInitialize. Computing space requirements
+1: Action 22:14:50: FileCost. Computing space requirements
+1: Action 22:14:50: CostFinalize. Computing space requirements
+1: Action 22:14:50: MigrateFeatureStates. Migrating feature states from related applications
+1: Action 22:14:50: InstallValidate. Validating install
+1: Action 22:14:51: SaveTargetDir. 
+1: Action 22:14:51: InstallInitialize. 
+1: Action 22:14:51: SetQtRemoveService. 
+1: Action 22:14:51: RemoveExistingProducts. Removing applications
+1: Action 22:14:51: ProcessComponents. Updating component registration
+1: Action 22:14:52: GenerateScript. Generating script operations for action:
+1: Updating component registration
+1: Action 22:14:53: UnpublishFeatures. Unpublishing Product Features
+1: Action 22:14:53: SchedSecureObjectsRollback. 
+1: Action 22:14:53: RemoveRegistryValues. Removing system registry values
+1: Action 22:14:53: RemoveShortcuts. Removing shortcuts
+1: Action 22:14:53: RemoveFiles. Removing files
+1: Action 22:14:53: RemoveFolders. Removing folders
+1: Action 22:14:53: CreateFolders. Creating folders
+1: Folder: Creating folders
+1: Action 22:14:53: InstallFiles. Copying new files
+1: File: Copying new files,  Directory: ,  Size: 
+1: Action 22:14:55: CreateShortcuts. Creating shortcuts
+1: Shortcut: Creating shortcuts
+1: Action 22:14:55: WriteRegistryValues. Writing system registry values
+1: Key: Writing system registry values, Name: , Value: 
+1: Action 22:14:55: InstallServices. Installing new services
+1: Action 22:14:55: SchedSecureObjects. 
+1: Action 22:14:55: ExecSecureObjects. 
+1: 
+1: Action 22:14:55: RegisterUser. Registering user
+1: Action 22:14:55: RegisterProduct. Registering product
+1: Registering product
+1: Action 22:14:55: PublishFeatures. Publishing Product Features
+1: Feature: Publishing Product Features
+1: Action 22:14:55: PublishProduct. Publishing product information
+1: Action 22:14:55: InstallFinalize. 
+1: Action 22:14:55: ProcessComponents. Updating component registration
+1: Action 22:14:56: CreateFolders. Creating folders
+1: Folder: C:\ProgramData\MySQL\MySQL Server 5.7\
+1: Folder: C:\ProgramData\MySQL\MySQL Server 5.7\data\
+1: Folder: C:\ProgramData\MySQL\MySQL Server 5.7\data\mysql\
+1: Folder: C:\ProgramData\MySQL\MySQL Server 5.7\data\performance_schema\
+1: Folder: C:\ProgramData\MySQL\MySQL Server 5.7\data\test\
+1: Action 22:14:56: InstallFiles. Copying new files
+1: File: innochecksum.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 4942456
+1: File: libmecab.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 1751040
+1: File: lz4_decompress.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 75896
+1: File: my_print_defaults.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 4846720
+1: File: myisam_ftdump.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5055096
+1: File: myisamchk.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5151344
+1: File: myisamlog.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 3607152
+1: File: myisampack.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5074544
+1: File: mysql.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5484648
+1: File: mysql_config.pl,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 7711
+1: File: mysql_config_editor.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 4860544
+1: File: mysql_embedded.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 18141304
+1: File: mysql_plugin.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 4856440
+1: File: mysql_secure_installation.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5405840
+1: File: mysql_ssl_rsa_setup.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 4896896
+1: File: mysql_tzinfo_to_sql.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 3389056
+1: File: mysql_upgrade.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 6031992
+1: File: mysqladmin.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5416560
+1: File: mysqlbinlog.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5600880
+1: File: mysqlcheck.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5432944
+1: File: mysqld.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 36960872
+1: File: mysqld_multi.pl,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 28429
+1: File: mysqldump.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5469296
+1: File: mysqldumpslow.pl,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 8082
+1: File: mysqlimport.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5408880
+1: File: mysqlpump.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5905008
+1: File: mysqlshow.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5407856
+1: File: mysqlslap.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 5423216
+1: File: mysqlxtest.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 6912624
+1: File: perror.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 4974184
+1: File: resolveip.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 4845680
+1: File: zlib_decompress.exe,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\bin\,  Size: 42616
+1: File: big_endian.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 4078
+1: File: binary_log_types.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 2671
+1: File: byte_order_generic.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 2979
+1: File: byte_order_generic_x86.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 2894
+1: File: decimal.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 5599
+1: File: errmsg.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 4774
+1: File: keycache.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 7913
+1: File: little_endian.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 3937
+1: File: m_ctype.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 34706
+1: File: m_string.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 11146
+1: File: my_alloc.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 3016
+1: File: my_byteorder.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 6192
+1: File: my_command.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 2341
+1: File: my_compiler.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 5834
+1: File: my_config.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 13234
+1: File: my_dbug.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 10095
+1: File: my_dir.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 3436
+1: File: my_getopt.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 6880
+1: File: my_global.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 23323
+1: File: my_list.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 2210
+1: File: my_sys.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 40101
+1: File: my_thread.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 5301
+1: File: my_thread_local.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 2990
+1: File: my_xml.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 3245
+1: File: mysql.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 29911
+1: File: client_authentication.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 1679
+1: File: client_plugin.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 7164
+1: File: client_plugin.h.pp,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 1988
+1: File: mysql_com.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 25547
+1: File: com_data.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 3530
+1: File: mysql_com_server.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 1737
+1: File: mysql_embed.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 1566
+1: File: get_password.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 1622
+1: File: group_replication_priv.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 5161
+1: File: innodb_priv.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 2591
+1: File: mysql_lex_string.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 1520
+1: File: plugin.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 26728
+1: File: plugin_audit.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 17965
+1: File: plugin_audit.h.pp,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 13897
+1: File: plugin_auth.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 5787
+1: File: plugin_auth.h.pp,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 5147
+1: File: plugin_auth_common.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 5550
+1: File: plugin_ftparser.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 8068
+1: File: plugin_ftparser.h.pp,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 4871
+1: File: plugin_group_replication.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 6093
+1: File: plugin_keyring.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 6714
+1: File: plugin_keyring.h.pp,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 4458
+1: File: plugin_trace.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 12574
+1: File: plugin_validate_password.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 2007
+1: File: mysql_file.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 39803
+1: File: mysql_idle.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 3008
+1: File: mysql_mdl.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 3727
+1: File: mysql_memory.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 2097
+1: File: mysql_ps.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 4121
+1: File: mysql_socket.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 33627
+1: File: mysql_sp.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 3255
+1: File: mysql_stage.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 5209
+1: File: mysql_statement.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 7036
+1: File: mysql_table.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 4459
+1: File: mysql_thread.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 33722
+1: File: mysql_transaction.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 7246
+1: File: psi.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 87206
+1: File: psi_base.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 4179
+1: File: psi_memory.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\psi\,  Size: 4770
+1: File: service_command.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 13897
+1: File: service_locking.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 4752
+1: File: service_my_plugin_log.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 2097
+1: File: service_my_snprintf.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 3833
+1: File: service_mysql_alloc.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 3184
+1: File: service_mysql_keyring.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 2878
+1: File: service_mysql_password_policy.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 2860
+1: File: service_mysql_string.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 5779
+1: File: service_parser.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 9829
+1: File: service_rpl_transaction_ctx.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 2785
+1: File: service_rpl_transaction_write_set.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 2944
+1: File: service_rules_table.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 5514
+1: File: service_security_context.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 4482
+1: File: service_srv_session.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 5315
+1: File: service_srv_session_info.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 5661
+1: File: service_ssl_wrapper.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 5573
+1: File: service_thd_alloc.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 4755
+1: File: service_thd_engine_lock.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 1913
+1: File: service_thd_wait.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 4369
+1: File: service_thread_scheduler.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 3100
+1: File: services.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 2372
+1: File: services.h.pp,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 21953
+1: File: thread_pool_priv.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 6673
+1: File: thread_type.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\mysql\,  Size: 1808
+1: File: mysql_time.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 2856
+1: File: mysql_version.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 1043
+1: File: mysqld_ername.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 125443
+1: File: mysqld_error.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 46468
+1: File: plugin.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 26728
+1: File: plugin_audit.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 17965
+1: File: plugin_ftparser.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 8068
+1: File: plugin_group_replication.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 6093
+1: File: plugin_keyring.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 6714
+1: File: plugin_validate_password.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 2007
+1: File: sql_common.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 8215
+1: File: sql_state.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 15336
+1: File: sslopt-case.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 2510
+1: File: sslopt-longopts.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 3226
+1: File: sslopt-vars.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 3326
+1: File: thr_cond.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 5572
+1: File: thr_mutex.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 6103
+1: File: thr_rwlock.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 6468
+1: File: typelib.h,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\include\,  Size: 2986
+1: File: libmysql.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\,  Size: 5396080
+1: File: libmysql.lib,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\,  Size: 28714
+1: File: char.bin,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_euc-jp\,  Size: 262496
+1: File: dicrc,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_euc-jp\,  Size: 693
+1: File: left-id.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_euc-jp\,  Size: 55910
+1: File: matrix.bin,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_euc-jp\,  Size: 3463716
+1: File: pos-id.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_euc-jp\,  Size: 1477
+1: File: rewrite.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_euc-jp\,  Size: 6241
+1: File: right-id.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_euc-jp\,  Size: 55910
+1: File: sys.dic,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_euc-jp\,  Size: 37779919
+1: File: unk.dic,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_euc-jp\,  Size: 5409
+1: File: char.bin,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_sjis\,  Size: 262496
+1: File: dicrc,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_sjis\,  Size: 693
+1: File: left-id.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_sjis\,  Size: 55910
+1: File: matrix.bin,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_sjis\,  Size: 3463716
+1: File: pos-id.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_sjis\,  Size: 1477
+1: File: rewrite.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_sjis\,  Size: 6241
+1: File: right-id.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_sjis\,  Size: 55910
+1: File: sys.dic,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_sjis\,  Size: 37635899
+1: File: unk.dic,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_sjis\,  Size: 5409
+1: File: char.bin,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_utf-8\,  Size: 262496
+1: File: dicrc,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_utf-8\,  Size: 693
+1: File: left-id.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_utf-8\,  Size: 55910
+1: File: matrix.bin,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_utf-8\,  Size: 3463716
+1: File: pos-id.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_utf-8\,  Size: 1477
+1: File: rewrite.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_utf-8\,  Size: 6241
+1: File: right-id.def,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_utf-8\,  Size: 55910
+1: File: sys.dic,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_utf-8\,  Size: 49199027
+1: File: unk.dic,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\dic\ipadic_utf-8\,  Size: 5690
+1: File: mecabrc,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\mecab\etc\,  Size: 1403
+1: File: mysqlclient.lib,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\,  Size: 54975942
+1: File: adt_null.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 24176
+1: File: connection_control.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 49792
+1: File: group_replication.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 2662016
+1: File: ha_example.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 33392
+1: File: keyring_file.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 74360
+1: File: keyring_udf.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 27760
+1: File: libpluginmecab.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 26232
+1: File: libtest_framework.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 21120
+1: File: libtest_services.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 23168
+1: File: libtest_services_threaded.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 23184
+1: File: libtest_session_detach.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 29320
+1: File: libtest_session_in_thd.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 23176
+1: File: libtest_session_info.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 42632
+1: File: libtest_sql_2_sessions.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 30344
+1: File: libtest_sql_all_col_types.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 35472
+1: File: libtest_sql_cmds_1.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 31872
+1: File: libtest_sql_commit.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 35456
+1: File: libtest_sql_complex.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 36480
+1: File: libtest_sql_errors.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 30848
+1: File: libtest_sql_lock.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 39552
+1: File: libtest_sql_processlist.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 30856
+1: File: libtest_sql_replication.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 33928
+1: File: libtest_sql_shutdown.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 27784
+1: File: libtest_sql_sqlmode.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 35456
+1: File: libtest_sql_stored_procedures_functions.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 35496
+1: File: libtest_sql_views_triggers.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 35472
+1: File: libtest_x_sessions_deinit.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 24720
+1: File: libtest_x_sessions_init.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 24712
+1: File: locking_service.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 16504
+1: File: mypluglib.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 15984
+1: File: mysql_no_login.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 14968
+1: File: mysqlx.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 1118824
+1: File: rewrite_example.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 21624
+1: File: rewriter.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 56432
+1: File: semisync_master.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 56952
+1: File: semisync_slave.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 24696
+1: File: test_security_context.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 21640
+1: File: test_udf_services.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 21120
+1: File: validate_password.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 50304
+1: File: version_token.dll,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\lib\plugin\,  Size: 40568
+1: File: LICENSE,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\,  Size: 275235
+1: File: README,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\,  Size: 587
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\bulgarian\,  Size: 79500
+1: File: armscii8.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5943
+1: File: ascii.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5929
+1: File: cp1250.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 8658
+1: File: cp1251.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 8783
+1: File: cp1256.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5986
+1: File: cp1257.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 9319
+1: File: cp850.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5923
+1: File: cp852.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5945
+1: File: cp866.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 6030
+1: File: dec8.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 6946
+1: File: geostd8.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5933
+1: File: greek.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 6145
+1: File: hebrew.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5934
+1: File: hp8.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5919
+1: File: Index.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 19404
+1: File: keybcs2.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5946
+1: File: koi8r.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5927
+1: File: koi8u.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 6949
+1: File: latin1.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 10233
+1: File: latin2.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 7655
+1: File: latin5.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 5932
+1: File: latin7.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 7855
+1: File: macce.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 8464
+1: File: macroman.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 8475
+1: File: README,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 1749
+1: File: swe7.xml,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\charsets\,  Size: 6947
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\czech\,  Size: 80007
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\danish\,  Size: 80007
+1: File: dictionary.txt,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\,  Size: 25575
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\dutch\,  Size: 81027
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\english\,  Size: 79247
+1: File: errmsg-utf8.txt,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\,  Size: 529999
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\estonian\,  Size: 79512
+1: File: fill_help_tables.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\,  Size: 1015270
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\french\,  Size: 80655
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\german\,  Size: 86969
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\greek\,  Size: 86039
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\hungarian\,  Size: 79889
+1: File: innodb_memcached_config.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\,  Size: 3999
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\italian\,  Size: 81018
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\japanese\,  Size: 86694
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\korean\,  Size: 82288
+1: File: mysql_security_commands.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\,  Size: 2186
+1: File: mysql_sys_schema.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\,  Size: 288363
+1: File: mysql_system_tables.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\,  Size: 155052
+1: File: mysql_system_tables_data.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\,  Size: 1235
+1: File: mysql_test_data_timezone.sql,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\,  Size: 10834
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\norwegian\,  Size: 79318
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\norwegian-ny\,  Size: 79371
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\polish\,  Size: 79966
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\portuguese\,  Size: 82210
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\romanian\,  Size: 80960
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\russian\,  Size: 94585
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\serbian\,  Size: 81629
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\slovak\,  Size: 79774
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\spanish\,  Size: 80902
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\swedish\,  Size: 80101
+1: File: errmsg.sys,  Directory: C:\Program Files\MySQL\MySQL Server 5.7\share\ukrainian\,  Size: 89160
+1: Action 22:15:09: CreateShortcuts. Creating shortcuts
+1: Shortcut: icon.ico
+1: Shortcut: Icon.MysqlCmdShell
+1: Shortcut: rhj5cnaj|MySQL 5.7 Command Line Client
+1: Shortcut: b7npydg0|MySQL 5.7 Command Line Client - Unicode
+1: Action 22:15:09: WriteRegistryValues. Writing system registry values
+1: Key: \Console\MySQL 5.7 Command Line Client - Unicode, Name: FaceName, Value: Lucida Console
+1: Key: \Console\MySQL 5.7 Command Line Client - Unicode, Name: FontWeight, Value: #400
+1: Key: \Console\MySQL 5.7 Command Line Client - Unicode, Name: , Value: 
+1: Key: \Software\MySQL AB\MySQL Server 5.7, Name: installed, Value: #1
+1: Key: \SOFTWARE\MySQL AB\MySQL Server 5.7, Name: Location, Value: C:\Program Files\MySQL\MySQL Server 5.7\
+1: Key: \SOFTWARE\MySQL AB\MySQL Server 5.7, Name: Version, Value: 5.7.30
+1: Key: \SOFTWARE\MySQL AB\MySQL Server 5.7, Name: DataLocation, Value: C:\ProgramData\MySQL\MySQL Server 5.7\
+1: Key: \SOFTWARE\MySQL AB\MySQL Server 5.7, Name: , Value: 
+1: Action 22:15:09: ExecSecureObjects. 
+1: Action 22:15:10: RegisterProduct. Registering product
+1: {A6A9C7F2-6AC5-4823-A993-614AF8B5F4BC}
+1: Action 22:15:10: PublishFeatures. Publishing Product Features
+1: Feature: RegKeys
+1: Feature: Client
+1: Feature: MYSQLSERVER
+1: Feature: DEVEL
+1: Feature: Readme
+1: Feature: ALWAYSINSTALL
+1: Feature: Server_Scripts
+1: Feature: MISC
+1: Feature: ProgramMenu
+1: Feature: UserEditableDataFiles
+1: Feature: DOCUMENTATION
+1: Action 22:15:11: PublishProduct. Publishing product information
+1: Action 22:15:12: RollbackCleanup. Removing backup files
+1: 1: MySQL Server 5.7 2: {A6A9C7F2-6AC5-4823-A993-614AF8B5F4BC} 3: 1 
+1: The action 'Install' for product 'MySQL Server 5.7.30' completed successfully.
+7: Action 22:15:14: INSTALL. 
+7: 1: MySQL Documents 5.7 2: {41FBC27F-BB3E-43D9-8A52-3C1941DE2E4E} 
+7: Action 22:15:14: FindRelatedProducts. Searching for related applications
+7: Action 22:15:14: ValidateProductID. 
+7: Action 22:15:14: CostInitialize. Computing space requirements
+7: Action 22:15:14: FileCost. Computing space requirements
+7: Action 22:15:14: CostFinalize. Computing space requirements
+7: Action 22:15:14: InstallValidate. Validating install
+7: Action 22:15:14: InstallInitialize. 
+7: Action 22:15:14: RemoveExistingProducts. Removing applications
+7: Action 22:15:14: ProcessComponents. Updating component registration
+7: Action 22:15:15: GenerateScript. Generating script operations for action:
+7: Updating component registration
+7: Action 22:15:15: UnpublishFeatures. Unpublishing Product Features
+7: Action 22:15:15: RemoveFiles. Removing files
+7: Action 22:15:15: InstallFiles. Copying new files
+7: File: Copying new files,  Directory: ,  Size: 
+7: Action 22:15:15: RegisterUser. Registering user
+7: Action 22:15:15: RegisterProduct. Registering product
+7: Registering product
+7: Action 22:15:16: PublishFeatures. Publishing Product Features
+7: Feature: Publishing Product Features
+7: Action 22:15:16: PublishProduct. Publishing product information
+7: 
+7: Action 22:15:16: InstallFinalize. 
+7: Action 22:15:16: ProcessComponents. Updating component registration
+7: Action 22:15:16: InstallFiles. Copying new files
+7: File: refman-5.7-en.pdf,  Directory: C:\Program Files\MySQL\MySQL Documentation 5.7\,  Size: 41138289
+7: File: refman-5.7-en.a4.pdf,  Directory: C:\Program Files\MySQL\MySQL Documentation 5.7\,  Size: 41184985
+7: Action 22:15:16: RegisterProduct. Registering product
+7: {41FBC27F-BB3E-43D9-8A52-3C1941DE2E4E}
+7: Action 22:15:17: PublishFeatures. Publishing Product Features
+7: Feature: ServerA4Feature
+7: Feature: ServerFeature
+7: Action 22:15:17: PublishProduct. Publishing product information
+7: Action 22:15:17: RollbackCleanup. Removing backup files
+7: 1: MySQL Documents 5.7 2: {41FBC27F-BB3E-43D9-8A52-3C1941DE2E4E} 3: 1 
+7: The action 'Install' for product 'MySQL Documentation 5.7.30' completed successfully.
